@@ -1,0 +1,10 @@
+---
+applications:
+  - name: geo-mocks
+    path: .
+    memory: 256M
+    buildpacks:
+      - nodejs_buildpack
+    services:
+      - messaging_georel
+      - xf_api_bupa
